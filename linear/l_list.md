@@ -1,3 +1,4 @@
+just use your mind&mouse to rem with hand
 
 - [ ] 第1讲 行列式
   - [ ] 一、定义、性质与定理

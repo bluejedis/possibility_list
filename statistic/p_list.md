@@ -1,4 +1,4 @@
-just use your mind&mouse to rem
+just use your mind&mouse to rem with hand
 
 
 - [ ] 第1讲 随机事件和概率
