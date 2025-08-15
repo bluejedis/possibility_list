@@ -37,13 +37,13 @@
 
 ---
 
-## **第二部分：各章节核心考点、题型与通法**
+##  <span style="color: silver;">第二部分：各章节核心考点、题型与通法
 
-### **第1讲 随机事件和概率**
+### 第1讲 随机事件和概率
 
-#### **一、古典概型与概率**
+#### **一、<span style="border-bottom: 3px dotted black;">古典</span> 概型与概率**
 * **重要公式与概念**
-    * 概率定义：事件A的概率 $P(A) = \frac{A包含的基本事件数}{样本空间的基本事件总数} = \frac{k}{n}$
+    * 概率定义：事件A的概率 <span style="border: 1px solid black; padding: 5px; display: inline-block;">$P(A) = \frac{A包含的基本事件数}{样本空间的基本事件总数} = \frac{k}{n}$</span>
     * 核心思想：有限个样本点，每个样本点发生的可能性相同。
 * **重要题型**：抽球、摸牌、分组等排列组合问题。
 * **通式通法**
@@ -51,23 +51,40 @@
     2.  **确定事件**：计算事件A包含的结果数 `k`。
     3.  **计算概率**：$P(A) = k/n$。
 
-#### **二、几何概型与概率**
+#### **二、<span style="border: 1px solid black; padding: 5px; display: inline-block;">几何</span> 概型与概率**
 * **重要公式与概念**
-    * 概率定义：$P(A) = \frac{构成事件A的区域测度(长度,面积,体积)}{样本空间的区域测度}$
+    * 概率定义：<span style="border: 1px solid black; padding: 5px; display: inline-block;">$P(A) = \frac{构成事件A的区域测度(长度,面积,体积)}{样本空间的区域测度}$</span>
     * 核心思想：样本点无限多，每个样本点落在同测度的子区域内是等可能的。
 * **重要题型**：相遇问题、随机取点问题。
 * **通式通法**
-    1.  **确定变量与样本空间**：将问题转化为1维、2维或3维空间中的一个区域S。
+    1.  **确定变量与样本空间**：将问题转化为<span style="border: 1px solid black; padding: 5px; display: inline-block;">1维、2维或3维空间</span>中的一个区域S。
     2.  **确定事件区域**：根据题目条件，画出事件A对应的子区域A。
     3.  **计算概率**：计算两个区域的测度（长度、面积、体积）并求比值。
 
 #### **三、重要公式与求概率**
 * **重要公式与概念**
-    * 加法公式：$P(A \cup B) = P(A) + P(B) - P(AB)$
-    * 减法公式：$P(A-B) = P(A) - P(AB)$
-    * 条件概率：$P(B|A) = \frac{P(AB)}{P(A)}$
-    * 全概率公式：$P(A) = \sum_{i=1}^{n} P(B_i)P(A|B_i)$ (将复杂事件分解为简单情况)
-    * 贝叶斯公式：$P(B_i|A) = \frac{P(B_i)P(A|B_i)}{\sum_{j=1}^{n} P(B_j)P(A|B_j)}$ (执果索因)
+
+<span style="border: 1px solid black; padding: 5px; display: inline-block;">
+
+* 加法公式：$P(A \cup B) = P(A) + P(B) - P(AB)$
+* 减法公式：$P(A-B) = P(A) - P(AB)$
+
+</span>
+
+
+<span style="border: 1px solid black; padding: 5px; display: inline-block;">
+
+* 条件概率：$P(B|A) = \frac{P(AB)}{P(A)}$
+
+<span style="border: 1px solid black; padding: 5px; display: inline-block;">
+
+* 全概率：$P(A) = \sum_{i=1}^{n} P(B_i)P(A|B_i)$ (将复杂事件分解为简单情况)
+* 贝叶斯：$P(B_i|A) = \frac{P(B_i)P(A|B_i)}{\sum_{j=1}^{n} P(B_j)P(A|B_j)}$ (执果索因)
+  
+</span>
+
+</span>
+
 * **重要题型**：计算复杂事件的概率，特别是“至少有一个发生”或“执果索因”型问题。
 * **通式通法**
     1.  **定义事件**：用大写字母 A, B, C... 表示题目中的基本事件。
@@ -76,7 +93,7 @@
 
 #### **四、事件独立性**
 * **重要公式与概念**
-    * 定义：若 $P(AB) = P(A)P(B)$，则 A, B 相互独立。
+    * 定义：若 <span style="border: 1px solid black; padding: 5px; display: inline-block;">$P(AB) = P(A)P(B)$</span>，则 A, B 相互独立。
     * 推广：若A, B独立，则 $\bar{A}$ 与 B, A 与 $\bar{B}$, $\bar{A}$ 与 $\bar{B}$ 也都独立。
 * **重要题型**：判定事件独立性；利用独立性计算概率。
 * **通式通法**
@@ -86,14 +103,20 @@
 
 ---
 
-### **第2讲 一维随机变量及其分布**
+### 第2讲 一维随机变量及其分布
 
 #### **一、判分布**
 * **重要概念**：理解六大常用分布的背景和特点。
     * **0-1分布**：一次试验，只有两种结果。
     * **二项分布 B(n, p)**：n次独立重复试验中成功发生的次数。
+    
+    <span style="border: 1px solid black; padding: 5px; display: inline-block;">
+
     * **泊松分布 P(λ)**：单位时间/面积内事件发生的次数（如电话呼叫、质点放射）。
     * **均匀分布 U(a, b)**：在区间(a,b)内取值是等可能的。
+    
+    </span>
+  
     * **指数分布 E(λ)**：独立事件首次发生的时间间隔，具有无记忆性。
     * **正态分布 N(μ, σ²)**：自然界中大量随机现象的规律。
 * **重要题型**：根据题目描述，直接判断随机变量服从哪种分布。
@@ -104,8 +127,8 @@
 
 #### **二、求分布**
 * **重要公式与概念**
-    * 分布函数：$F(x) = P(X \le x)$
-    * 概率密度 (连续)：$f(x) = F'(x)$, $P(a<X<b) = \int_a^b f(x)dx$
+    * 分布函数：<span style="border: 1px solid black; padding: 5px; display: inline-block;">$F(x) = P(X \le x)$</span>
+    * 概率密度 (连续)：<span style="border: 1px solid black; padding: 5px; display: inline-block;">$f(x) = F'(x)$, $P(a<X<b) = \int_a^b f(x)dx$</span>
     * 分布律 (离散)：$P(X=x_k) = p_k$
 * **重要题型**：已知X的分布，求 Y = g(X) 的分布。
 * **通式通法 (分布函数法，对连续型最通用)**
@@ -117,7 +140,7 @@
 * **重要公式与概念**
     * $P(a < X \le b) = F(b) - F(a)$
     * 标准化：若 $X \sim N(\mu, \sigma^2)$, 则 $Z = \frac{X-\mu}{\sigma} \sim N(0,1)$。
-* **重要题型**：已知分布，计算概率。
+* **重要题型**：已知分布，<span style="border-bottom: 3px dotted black;">计算概率</span>。
 * **通式通法**
     1.  **写出所求**：将问题转化为 $P(a < X < b)$ 或 $P(X=k)$ 的形式。
     2.  **利用F(x)或f(x)**：对于连续型，用 $F(b)-F(a)$ 或 $\int_a^b f(x)dx$ 计算；对于离散型，将对应值的概率相加。
@@ -130,10 +153,19 @@
 
 #### **一、数学期望 E(X) / 二、方差 D(X)**
 * **重要公式与概念**
-    * 期望定义：$E(X) = \sum x_k p_k$ (离散)；$E(X) = \int_{-\infty}^{\infty} xf(x)dx$ (连续)。
-    * 方差定义：$D(X) = E\{[X-E(X)]^2\} = E(X^2) - [E(X)]^2$。
-    * 性质：$E(aX+b) = aE(X)+b$；$D(aX+b) = a^2D(X)$；$D(C)=0$。
-    * 函数期望：$E[g(X)] = \sum g(x_k)p_k$ 或 $\int_{-\infty}^{\infty} g(x)f(x)dx$。
+    * 期望定义：
+      * $E(X) = \boxed{\sum x_k p_k}$ (离散)；
+      * $E(X) = \int_{-\infty}^{\infty} \boxed{xf(x)}dx$ (连续)
+        * $E(X^2) = \int \boxed{x^2}f(x)dx$
+    * 方差定义：$D(X) = E\{[X-E(X)]^2\} = \boxed{E(X^2) - [E(X)]^2}$
+  ---
+    * 性质：
+      * $E(aX+b) = \boxed{aE(X)+b}$；
+      * $D(aX+b) = \boxed{a^2}D(X)$；
+      * $D(C)=0$
+    * 函数期望：
+      * $E[g(X)] = \sum g(x_k)p_k$ 
+      * $\int_{-\infty}^{\infty} g(x)f(x)dx$
 * **重要题型**：
     1.  已知分布，求E(X), D(X)。
     2.  已知E(X), D(X)中的部分信息，反求分布中的参数。
@@ -142,16 +174,18 @@
     1.  **判断类型**：判断是离散型还是连续型。
     2.  **套用公式**：
         * 求E(X)：直接用期望定义公式计算积分或求和。
-        * 求D(X)：先用 $E(X^2) = \int x^2f(x)dx$ 求出 $E(X^2)$，再用 $D(X)=E(X^2)-[E(X)]^2$ 计算。
+        * 求D(X)：先用 $E(X^2) = \int x^2f(x)dx$ 求出 $E(X^2)$，再用 <span style="border-bottom: 3px dotted black;">$D(X)=E(X^2)-[E(X)]^2$</span> 计算。
     3.  **巧用性质**：若 X 服从常用分布，直接写出其期望方差；若求 E(aX+b), D(aX+b)，优先用性质简化计算。
 
 ---
 
-### **第5讲 多维随机变量及联合分布**
+### ? **第5讲 多维随机变量及联合分布** ← 识别不全 未必对,待定
 
-#### **一、多维 → 维 (求边缘分布)**
+#### **一、多维 → 一维 (求边缘分布)**
 * **重要公式与概念**
-    * 边缘密度函数：$f_X(x) = \int_{-\infty}^{\infty} f(x,y)dy$；$f_Y(y) = \int_{-\infty}^{\infty} f(x,y)dx$
+    * 边缘密度函数：
+      * $f_{\boxed{X}}(x) = \int_{-\infty}^{\infty} f(x,y)d{\boxed{y}}$
+      * $f_Y(y) = \int_{-\infty}^{\infty} f(x,y)dx$
     * 边缘分布律：$P(X=x_i) = \sum_j P(X=x_i, Y=y_j)$
 * **重要题型**：已知联合分布(f(x,y)或P(X=xi, Y=yj))，求边缘分布。
 * **通式通法**
@@ -159,9 +193,9 @@
     2.  **积分或求和**：连续型对另一个变量在整个取值范围积分；离散型对另一个变量的所有可能取值求和。
     3.  **注意定限**：积分时，y的积分限通常与x有关，需要根据联合密度函数的非零区域准确确定。
 
-#### **二、维 → 维 (求条件分布)**
+#### **二、多维 ← 一维 (求条件分布)**
 * **重要公式与概念**
-    * 条件密度函数：$f_{Y|X}(y|x) = \frac{f(x,y)}{f_X(x)}$
+    * 条件密度函数：$f_{Y|X}(y|x) = \boxed{\frac{f(x,y)}{f_X(x)}}$
     * 条件分布律：$P(Y=y_j|X=x_i) = \frac{P(X=x_i, Y=y_j)}{P(X=x_i)}$
 * **重要题型**：已知联合分布和边缘分布，求条件分布。
 * **通式通法**
@@ -171,13 +205,14 @@
 
 #### **三、多维 → 多维 (求函数分布)**
 * **重要公式与概念**
-    * Z=X+Y的卷积公式 (X,Y独立时)：$f_Z(z) = \int_{-\infty}^{\infty} f_X(x)f_Y(z-x)dx$
+    * Z=X+Y的卷积公式 (X,Y独立时)：
+      * $f_Z(z) = \int_{-\infty}^{\infty} f_X(x)f_Y(\boxed{z-x})dx$
     * M=max{X,Y}, N=min{X,Y} (X,Y独立时)：
         * $F_{max}(z) = P(X \le z, Y \le z) = F_X(z)F_Y(z)$
-        * $F_{min}(z) = 1 - P(X > z, Y > z) = 1 - [1-F_X(z)][1-F_Y(z)]$
+        * $F_{min}(z) = 1 - P(X > z, Y > z) = \boxed{1 -} [1-F_X(z)][1-F_Y(z)]$
 * **重要题型**：已知(X,Y)分布，求 Z=g(X,Y) 的分布，最常见的是 Z=X+Y, M=max{X,Y}, N=min{X,Y}。
 * **通式通法 (以Z=X+Y为例)**
-    1.  **判断独立性**：若X,Y独立，优先使用卷积公式。
+    1.  **判断独立性**：若<span style="border-bottom: 3px dotted black;">X,Y独立</span>，优先使用卷积公式。
     2.  **确定积分限**：画出X和Y的二维定义域，再画出 z = x+y 的线。根据 $f_X(x)$ 和 $f_Y(z-x)$ 的非零区域，确定x的积分限。这步是关键和难点。
     3.  **分段积分**：对不同z的取值范围，积分限可能不同，需要分段讨论并计算积分。
 
@@ -187,18 +222,18 @@
 
 #### **一、数学期望 / 二、方差**
 * **重要公式**
-    * $E[g(X,Y)] = \iint g(x,y)f(x,y)dxdy$
+    * $E[g(X,Y)] = \iint \boxed{g(x,y)f(x,y)}dxdy$
     * 期望性质：$E(aX+bY) = aE(X)+bE(Y)$ (无论是否独立)
-    * 方差性质：若X,Y独立，$D(aX+bY) = a^2D(X)+b^2D(Y)$
+    * 方差性质：若<span style="border-bottom: 3px dotted black;">X,Y独立</span>，$D(aX+bY) = a^2D(X)+b^2D(Y)$
 * **重要题型**：求 E(XY), D(X+Y) 等。
 * **通式通法**
     1.  **计算各部分**：分别计算 E(X), E(Y), D(X), D(Y), E(XY)。
     2.  **判断独立性**：若独立，可直接用 $E(XY)=E(X)E(Y)$ 和独立时的方差公式。
-    3.  **套用公式**：将各部分结果代入 $D(X+Y) = D(X)+D(Y)+2Cov(X,Y)$ 等公式中。
+    3.  **套用公式**：将各部分结果代入 $D(X+Y) = D(X)+D(Y)+\boxed{2Cov(X,Y)}$ 等公式中。
 
 #### **四、协方差 Cov(X,Y) 与相关系数 $\rho_{XY}$**
 * **重要公式**
-    * $Cov(X,Y) = E\{[X-E(X)][Y-E(Y)]\} = E(XY) - E(X)E(Y)$
+    * $Cov(X,Y) = E\{[X-E(X)][Y-E(Y)]\} = \boxed{E(XY) - E(X)E(Y)}$
     * $\rho_{XY} = \frac{Cov(X,Y)}{\sqrt{D(X)}\sqrt{D(Y)}}$
     * 性质：$D(X \pm Y) = D(X) + D(Y) \pm 2Cov(X,Y)$
 * **重要题型**：求协方差和相关系数。
@@ -207,11 +242,11 @@
     2.  **计算协方差**：利用公式 $Cov(X,Y) = E(XY) - E(X)E(Y)$。
     3.  **计算相关系数**：利用公式 $\rho_{XY} = \frac{Cov(X,Y)}{\sqrt{D(X)D(Y)}}$。
 
-#### **五、独立性与不相关性的判定**
+#### **五、独立性&不相关性的判定**
 * **重要概念**
     * **独立** $\Rightarrow$ **不相关** ($Cov(X,Y)=0, \rho_{XY}=0$)。
     * **不相关** $\nRightarrow$ **独立**。
-    * **特例**：若 (X,Y) 服从二维正态分布，则不相关与独立等价。
+    * **特例**：若 (X,Y) 服从<span style="border-bottom: 2px solid black;">二维正态</span>分布，则不相关与独立等价。
 * **重要题型**：判断两个随机变量是否独立/相关。
 * **通式通法**
     1.  **判定独立**：验证 $f(x,y) = f_X(x)f_Y(y)$ (连续) 或 $P(X=x_i,Y=y_j)=P(X=x_i)P(Y=y_j)$ (离散)。
@@ -220,15 +255,15 @@
 
 ---
 
-### **第7讲 大数定律与中心极限定理**
+### **第7讲 大数定律 & 中心极限定理**
 
 * **重要概念**
-    * **大数定律**：说明了“频率稳定于概率”，即样本均值 $\bar{X}$ 依概率收敛于总体期望 $\mu$。理论性强，直接计算少。
-    * **中心极限定理 (CLT)**：说明了大量独立同分布的随机变量之和（或均值）近似服从正态分布。
+    * **大数定律**：说明了“频率稳定于概率”，即样本均值 $\bar{X}$ 依概率<span style="border-bottom: 2px solid black;">收敛于</span>总体期望 $\mu$。理论性强，直接计算少。
+    * **中心极限定理 (CLT)**：说明了大量独立同分布的随机变量之和（或均值）近似服从<span style="border-bottom: 3px dotted black;">正态分布</span>。
 * **重要公式 (Lindeberg-Levy CLT)**
     * 若 $X_1, ..., X_n$ i.i.d., $E(X_i)=\mu, D(X_i)=\sigma^2$，则当n充分大时，
     * $\sum_{i=1}^{n} X_i \approx N(n\mu, n\sigma^2)$
-    * 标准化：$Z = \frac{\sum X_i - n\mu}{\sqrt{n}\sigma} \approx N(0,1)$
+    * 标准化：<span style="border: 1px solid black; padding: 5px; display: inline-block;">$Z = \frac{\sum X_i - n\mu}{\sqrt{n}\sigma} \approx N(0,1)$</span>
 * **重要题型**：当n很大时，求和事件或平均事件的近似概率。
 * **通式通法**
     1.  **识别与构造**：识别出题目是关于“n个i.i.d.变量之和/均值”的概率问题，并找出 $\mu$ 和 $\sigma^2$。
@@ -241,14 +276,20 @@
 
 * **重要概念**
     * **统计量**：不含未知参数的样本函数，如样本均值 $\bar{X}$，样本方差 $S^2$。
-    * **三大抽样分布**：$\chi^2$分布、t分布、F分布。
+    * **三大抽样分布**：<span style="border: 1px solid black; padding: 5px; display: inline-block;">$\chi^2$分布、t分布、F分布</span>
 * **重要公式与结论 (必须背熟)**
     * **单个正态总体 $N(\mu, \sigma^2)$**
-        1.  $\frac{\bar{X}-\mu}{\sigma/\sqrt{n}} \sim N(0,1)$
-        2.  $\frac{(n-1)S^2}{\sigma^2} \sim \chi^2(n-1)$
-        3.  $\frac{\bar{X}-\mu}{S/\sqrt{n}} \sim t(n-1)$
+    1.  $\frac{\bar{X}-\mu}{\sigma/\sqrt{n}} \sim N(0,1)$
+    
+    <span style="border: 1px solid black; padding: 5px; display: inline-block;">
+
+    2.  $\frac{(n-1)S^2}{\sigma^2} \sim \chi^2(n-1)$
+    3.  $\frac{\bar{X}-\mu}{S/\sqrt{n}} \sim t(n-1)$
+
+    </span>
+    
     * **两个独立正态总体**
-        4.  $\frac{S_1^2/\sigma_1^2}{S_2^2/\sigma_2^2} \sim F(n_1-1, n_2-1)$
+        1.  <span style="border: 1px solid black; padding: 5px; display: inline-block;">$\frac{S_1^2/\sigma_1^2}{S_2^2/\sigma_2^2} \sim F(n_1-1, n_2-1)$</span>
 * **重要题型**：给定一个由样本构成的表达式，判断其服从什么分布。
 * **通式通法**
     1.  **观察结构**：分析表达式的构成，看是涉及均值、方差，还是两个方差的比。
@@ -261,12 +302,12 @@
 
 #### **一、点估计 和 评价标准**
 * **重要公式与概念**
-    * **矩估计法 (MME)**：用样本矩估计总体矩。核心思想：$E(X^k) = \bar{X^k} = \frac{1}{n}\sum X_i^k$。
+    * **矩估计法 (MME)**：用样本矩估计总体矩。核心思想：<span style="border: 1px solid black; padding: 5px; display: inline-block;">$E(X^k) = \bar{X^k} = \frac{1}{n}\sum X_i^k$</span>。
     * **最大似然估计法 (MLE)**：找到使当前样本出现概率最大的那个参数值。
     * **评价标准**：无偏性($E(\hat{\theta})=\theta$)、有效性(方差小)、一致性。
 * **重要题型**：求未知参数的矩估计量或最大似然估计量。
 * **通式通法 (MLE为例)**
-    1.  **写出似然函数**：$L(\theta) = \prod_{i=1}^n f(x_i; \theta)$。
+    1.  **写出似然函数**：<span style="border: 1px solid black; padding: 5px; display: inline-block;">$L(\theta) = \prod_{i=1}^n f(x_i; \theta)$</span>。
     2.  **取对数并求导**：取对数得 $\ln L(\theta)$，然后对 $\theta$ 求导，令导数等于0。
     3.  **解出估计量**：解出方程，得到的 $\theta$ 即为最大似然估计量 $\hat{\theta}$。
 
@@ -276,7 +317,7 @@
     * **假设检验**：对关于总体的某个假设，依据样本信息来判断是接受还是拒绝。
 * **重要题型**：求参数的置信区间；对参数进行假设检验。两者思路高度统一。
 * **通式通法 (以单总体均值μ的区间估计/检验为例，σ²未知)**
-    1.  **寻找枢轴量**：找到一个其分布已知且不依赖于未知参数的统计量。此例中为 $T = \frac{\bar{X}-\mu}{S/\sqrt{n}} \sim t(n-1)$。
+    1.  **寻找枢轴量**：找到一个其分布已知且不依赖于未知参数的统计量。此例中为 <span style="border: 1px solid black; padding: 5px; display: inline-block;">$T = \frac{\bar{X}-\mu}{S/\sqrt{n}} \sim t(n-1)$</span>
     2.  **确定临界值/拒绝域**：
         * **区间估计**：根据置信度 $1-\alpha$，查t分布表找到双侧分位点 $t_{\alpha/2}(n-1)$，使得 $P(-t_{\alpha/2} < T < t_{\alpha/2}) = 1-\alpha$。
         * **假设检验**：根据显著性水平 $\alpha$ 和备择假设 $H_1$ 的形式（双边、左边或右边），确定拒绝域，如 $|T| > t_{\alpha/2}(n-1)$。
