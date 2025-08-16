@@ -73,6 +73,7 @@ just use your mind&mouse to rem with hand
   - [ ] 三、正态分布下的常用结论
 - [ ] 第9讲 参数估计与假设检验
   - [ ] 一、点估计 和 评价标准
+    - [x] 矩估计$E(X)$ &$E(X^2)$
     - [ ] $\ln L(\theta)$
       - [x] lt
   - [ ] 二、区间估计与假设检验 (仅数学—)
