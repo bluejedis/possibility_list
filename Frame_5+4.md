@@ -1,12 +1,53 @@
 <div style="float: left; width: 64%; padding: 1%;">
 
 [TOC]
+
+<br>
+
 5
-# <span style="color: gray;">事件 概率
-# <span style="color: gray;">一维random variable &分布</span>
-# <span style="color: gray;">.. 函数分布</span>
-# 多 ..
-# .. 函数分布
+# <span style="color: gray;">事件 概率<span style="color: darkgray;">(2概型 1g公式 1判独立
+
+##  <span style="color: black;">古典<span style="color: gray;">(2:<span style="color: darkgray;">分配, 抽样
+
+
+## 几何<span style="color: gray;">($P=\frac{A}{\Omega}$
+## 
+## **Fomula**<span style="color: gray;">(3<span style="color: lightgray;">:2对立 2 3 1互斥 2独立</span>  2<span style="color: lightgray;">:3condition 3≤</span> 1最值<span style="color: lightgray;">:3g
+## <span style="color: orange;">独立</span><span style="color: gray;">(判定<span style="color: lightgray;">: 2 4
+
+# 
+---
+# <span style="color: gray;">一维random variable &分布</span><span style="color: darkgray;">判 求 用
+
+## <span style="color: darkgray;">判</span><span style="color: lightgray;">(同多..
+
+## 求<span style="color: gray;">(3:<span style="color: lightgray;">D C ,mix
+
+### <span style="color: gray;">D</span><span style="color: darkgray;">(2 2 1
+### <span style="color: gray;">C</span><span style="color: darkgray;">(3 
+
+### <span style="color: darkgray;">mix</span><span style="color: lightgray;">($F(x)=P$</span>
+
+## **用**<span style="color: gray;">(3:F<span style="color: lightgray;">3 2</span> p f
+---
+# <span style="color: gray;">.. 函数分布</span><span style="color: gray;">(3:<span style="color: darkgray;">D→D,C→C(mix),C→D</span>
+
+---
+# 多 .. <span style="color: gray;">(3:判 求 用
+
+## <span style="color: gray;">判<span style="color: gray;">(3充要 1反
+## 求<span style="color: gray;">(2 1分布<span style="color: darkgray;"> 1判独立<span style="color: darkgray;">1 2 3</span>
+## **用**<span style="color: gray;">(3<span style="color: darkgray;">p f 混</span> 1反
+
+---
+# <span style="color: gray;">.. 函数分布</span><span style="color: darkgray;">[3
+
+## **△ 2→1**<span style="color: gray;">(3<span style="color: darkgray;">←求概率密度(离散or连续)
+###  <span style="color: black;">(D,D) → D
+###  <span style="color: black;">△(C,C) → C
+###  <span style="color: black;">(D,C) → C
+## **1→2**<span style="color: gray;">(2
+## **2→2**<span style="color: gray;">(3
 # 
 4
 # Digital characteristics<span style="color: gray;">[2 2type<span style="color: darkgray;">EX DX;Cov $\rho$</span> 2判定
@@ -16,7 +57,7 @@
 ## <span style="color: gray;">常用分布</span>'<span style="color: LightSkyBlue;">E</span>D<span style="color: gray;">(5 3
 ## **Cov**<span style="color: gray;">(1定义2法3性质</span>  $\rho$<span style="color: gray;">(1定义;4 2性质
 ## 
-## **独立**<span style="color: gray;">(分布</span> **不相关**<span style="color: gray;">($rho=0$ $\Leftrightarrow$ $Cov=0$</span> <span style="color: darkgray;">(2pair性质
+## <span style="color: orange;">独立</span><span style="color: gray;">(分布</span> **不相关**<span style="color: gray;">($\rho=0$ $\Leftrightarrow$ $Cov=0$</span> <span style="color: darkgray;">(2pair性质
 ---
 ---
 # <span style="color: gray;">大数 中极</span><span style="color: darkgray;">[1 2
